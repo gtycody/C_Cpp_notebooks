@@ -6,7 +6,7 @@ int main()
     p2 = (void *)p1;
     p2 = (int *)p1;
 
-    int a[]
+    int (*a)[];
     int (*a)[10];
     printf("%d\n",*a+4);
     
