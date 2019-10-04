@@ -2,11 +2,11 @@
 
 using namespace std;
 
-void foo(int* ptr, int &addr)
-{
+void foo(int* ptr, int &addr){
     *ptr = 20;
     addr = 10;
 }
+
 void swap(int x, int y){
     int temp = x;
     x = y;
@@ -26,8 +26,7 @@ void swap2(int &x, int &y){
     y = temp;
 }
 
-int main()
-{
+int main(){
     int a1 = 0;
     foo(&a1,a1);
     printf("%d\n",a1);
@@ -38,5 +37,3 @@ int main()
     swap2(a,b);
     printf("%d,%d\n",a,b);
 }
-
-
