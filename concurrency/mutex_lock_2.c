@@ -14,14 +14,15 @@ void* test()
 int main()
 {
     pthread_mutex_init(&test_lock,NULL);
-    pthread_mutex_lock(&test_lock);
-    
+    pthread_mutex_lock(&test_lock); // mutex locked-----------------------
+
     printf("Main locked\n");
 
-    pthread_create(&test_thread,NULL,test,NULL);
+    pthread_create(&test_thread,NULL,test,NULL);// starting another thread
     sleep(1);
+    
     printf("Main unlocked\n");
-    pthread_mutex_unlock(&test_lock);
+    pthread_mutex_unlock(&test_lock);//-----------------------------------
 
     sleep(1);
 
