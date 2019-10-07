@@ -7,7 +7,6 @@ int main()
     void* a;
     int* ptr;
 
-    a = (int *)a;
     int num = 0;
     a = &num;
     void *a2;

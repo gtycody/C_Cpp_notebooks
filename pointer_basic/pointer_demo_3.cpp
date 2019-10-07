@@ -8,7 +8,7 @@ int main()
     int a = 10;
     int* p = &a;
     int *p3 = &*p;
-    int** p4 = &p;
+    int** p4 = &p; //p is already a pointer
     cout<<p<<endl;
     //void* p2 = &*p;
 
