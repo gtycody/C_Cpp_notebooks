@@ -21,15 +21,20 @@
 // }
 
 #include <stdio.h>
-typedef struct list{
-    void* [] list_obj;
-}list;
 
-typedef struct element{
-    char[] type_nanme;
+typedef struct{
     void* object_ptr;
+    char type_nanme[];
 }list_elem;
 
+typedef struct{
+    void* list_elem[];
+}list;
+
+int main(){
+    list ls1;
+    printf("helloworld\n");
+}
 
 
 
