@@ -22,18 +22,30 @@
 
 #include <stdio.h>
 
+//define the structure of the list elements
 typedef struct{
     void* object_ptr;
-    char type_nanme[];
+    char* obj_type_name;
 }list_elem;
 
+//define the structure of the list
 typedef struct{
-    void* list_elem[];
+    list_elem** list_obj;
 }list;
+
+//define the functions
+int 
+append(list *self, list_elem *newitem){
+
+}
+
 
 int main(){
     list ls1;
     printf("helloworld\n");
+    printf("%lu\n",sizeof(ls1.list_obj));
+    printf("%d\n",ls1.list_obj == NULL);
+    return 0;
 }
 
 
