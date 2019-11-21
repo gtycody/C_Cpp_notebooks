@@ -25,4 +25,12 @@ int main(){
     printf("%lu\n",sizeof(struct foo1));
     return 0;
 }
-//conclusion
+// conclusion the name after struct {}
+// is usually the instance name of struct;
+// which can be used directly in the typedef and 
+// utilized as a class
+// which if the name is at front struct could only be utilized as
+// a name of struct a name of the rule which still need to be refine
+// as we use it.
+
+
