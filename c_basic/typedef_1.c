@@ -10,21 +10,19 @@ struct foo{
 
 typedef struct foo foo;
 
-typedef struct foo2{
+struct foo1{
     my_int c;
     my_int a;
-}foo1;
+};
 
-typedef struct foo2 foo2;
-
-
+typedef struct {} foo2;
 
 int main(){
     my_int a = 1;
     printf("%d\n", a);
     printf("%lu\n",sizeof(foo));
     printf("%lu\n",sizeof(foo2));
-    printf("%lu\n",sizeof(foo1));
-
+    printf("%lu\n",sizeof(struct foo1));
     return 0;
 }
+//conclusion
