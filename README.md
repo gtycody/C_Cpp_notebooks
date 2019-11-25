@@ -1,10 +1,22 @@
-The old README file was deleted accidently 
-SO I WILL ADD THIS FILE AS THE NEW README
+11/24/19
 
-2019-10-26
+Content of this C Cpp learning content
 
+-c_basic
 
-2019-10-30
+-data structure
 
+-concurrency
 
-2019-11-20
+-pointer_basic
+
+-pointer_method
+
+-socket
+
+-system
+
+virtualization
+
+The structure now is kinda messy, it will be updated 
+
