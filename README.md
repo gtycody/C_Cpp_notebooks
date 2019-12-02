@@ -1,22 +1,24 @@
-11/24/19
+11/24/19    init
+12/01/19    updated back from thx-giving
+
 
 Content of this C Cpp learning content
 
 -c_basic
 
--data structure
+-data structure (focus on achieve python methed in C)
 
--concurrency
+-concurrency 
 
--pointer_basic
+-pointer_basic (basic pointer)
 
--pointer_method
+-pointer_method (advance pointer)
 
--socket
+-socket (basic internet)
 
--system
+-system (some real system case)
 
-virtualization
+-virtualization (should be in system)
 
 The structure now is kinda messy, it will be updated 
 
