@@ -1,5 +1,6 @@
 11/24/19    init
 12/01/19    updated back from thx-giving
+12/02/19    need to do something
 
 
 Content of this C Cpp learning content
