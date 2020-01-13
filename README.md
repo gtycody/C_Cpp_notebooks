@@ -1,9 +1,25 @@
-2019-9-2
-Starting to use linux ubuntu 
-Helloworld
-this will be my C and C++ repo will keeeeeeep updating2019-9-2
-Starting to use linux ubuntu 
-Helloworld
+11/24/19    init
+12/01/19    updated back from thx-giving
+12/02/19    need to do something
+12/09/19    should back soon
 
-2019-9-7
-review for some basic
+Content of this C Cpp learning content
+
+-c_basic
+
+-data structure (focus on achieve python methed in C)
+
+-concurrency 
+
+-pointer_basic (basic pointer)
+
+-pointer_method (advance pointer)
+
+-socket (basic internet)
+
+-system (some real system case)
+
+-virtualization (should be in system)
+
+The structure now is kinda messy, it will be updated 
+
