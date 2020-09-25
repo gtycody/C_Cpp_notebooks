@@ -18,4 +18,5 @@ int main()
     void *void_ptr;
     void_ptr = &x;
     cout<<*(int *)void_ptr<<endl;
+    
 }

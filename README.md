@@ -23,3 +23,10 @@ Content of this C Cpp learning content
 
 The structure now is kinda messy, it will be updated 
 
+09/25/2020     Structure change
+----
+    |- C_basic
+    |- C_pointer
+    |- Operating system
+    |- Networking
+
