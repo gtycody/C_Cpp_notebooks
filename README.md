@@ -29,4 +29,5 @@ The structure now is kinda messy, it will be updated
     |- C_pointer
     |- Operating system
     |- Networking
+    |- SystemC
 
