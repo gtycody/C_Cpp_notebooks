@@ -1,0 +1,1 @@
+export LD_LIBRARY_PATH=/usr/local/systemc-2.2/lib-linux64
